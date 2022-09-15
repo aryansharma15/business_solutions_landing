@@ -156,6 +156,7 @@ h1{
     height: 600px;
     object-fit: cover;
     object-position: 20% 0%;
+    overflow-x: hidden;
 }
 
 
@@ -442,5 +443,99 @@ h1{
 
 
 @media screen and (max-width: 768px) {
-    
+
+    /* ---------------- MEDIA2 - TOP-SECTION -------------------- */
+
+    .top-sect-img img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .top-sect-text{
+        width: 350px;
+    }
+
+    .top-sect-text h1{
+        font-size: 35px;
+        width: 350px;
+    }
+
+    .top-sect-text p{
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .top-sect-img{
+        width: max-content;
+    }
+
+    .input-div{
+        padding: 3px 5px;
+    }
+
+    .input-div input{
+        padding: 5px 25px;
+    }
+
+    .input-div button{
+        padding: 7px 20px;
+    }
+
+    /* -------------------- MEDIA2 - STATS -----------------------*/
+
+    .stats{
+        width: 600px;
+    }
+
+    .stats h2{
+        font-size: 28px;
+    }
+
+    .nums h2{
+        font-size: 22px;
+    }
+
+    .stat-div{
+        width: 600px;
+    }
+
+    .stats img{
+        width: 500px;
+        height: 250px;
+    }
+
+    /* ------------------------ MEDIA2 - MID-SECTION ----------------- */
+
+    .mid-section{
+        margin: 80px auto;
+    }
+
+    .mid-section h2{
+        font-size: 28px;
+    }
+
+    .mid-div h2{
+        width: 300px;
+    }
+
+    .mid-div p{
+        width: 300px;
+    }
+
+    .mid-text{
+        width: 300px;
+    }
+
+    .mid-div{
+        width: 700px;
+        justify-content: space-around;
+
+        margin: 0px auto;
+    }
+
+    .mid-div img{
+        width: 250px;
+        height: 250px;
+    }
+
 }

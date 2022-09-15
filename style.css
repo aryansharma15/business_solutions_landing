@@ -26,6 +26,7 @@ nav{
     border: 1px solid #ffffff7f;
     font-size: 15px;
     font-weight: 600;
+    width: 150px;
 }
 
 .nav-btn:hover{
@@ -45,6 +46,15 @@ nav{
     margin-left: 300px;
 }
 
+.nav-item:hover{
+    color: #10181d;
+    transition: 250ms ease-in-out;
+}
+
+.nav-burger{
+    display: none;
+}
+
 
 /* -----------------------------------
         TOP SECTION
@@ -54,6 +64,7 @@ nav{
     background-color: #636C79;
     padding: 60px 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -96,6 +107,11 @@ h1{
     color: #FFFFFF;
     background-color: #8BB7A2;
     border: 0px solid;
+}
+
+.input-div button:hover{
+    background-color: #636C79;
+    transition: 250ms ease-in-out;
 }
 
 .top-sect-img img{
@@ -204,6 +220,11 @@ h1{
     color: #FFFFFF;
 }
 
+.mid-text button:hover{
+    background-color: #636C79;
+    transition: 250ms ease-in-out;
+}
+
 .mid-div-img2{
     height: 400px;
     width: 400px;
@@ -288,6 +309,10 @@ h1{
     align-items: center;
 }
 
+.team-btn:hover{
+    background-color: #636C79;
+    transition: 250ms ease-in-out;
+}
 
 /* ---------------------------------------
         FOOTER
@@ -346,4 +371,76 @@ h1{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #C3C5C7;
+}
+
+
+@media screen and (max-width: 1280px){
+
+    /*-------------- NAV ---------------------*/
+    .nav-links{
+        display: none;
+    }
+
+    .nav-burger{
+        display: inline-block;
+        position: absolute;
+        /* left: 950px; */
+        right: 160px;
+        margin-right: 100px;
+        font-size: 25px;
+    }
+
+    /* ---------------STATS---------------------*/
+
+    .stats{
+        width: 800px;
+        margin: 40px auto;
+    }
+
+    .stats h2{
+        font-size: 35px;
+    }
+
+    .stat-div{
+        width: 800px;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
+    .nums{
+        width: 20%;
+    }
+
+    .stats img{
+        width: 700px;
+        height: 350px;
+    }
+
+    /* ----------------- MID-SECTION ---------------------*/
+
+    .mid-section{
+        margin: 80px auto;
+    }
+
+    .mid-section h2{
+        font-size: 35px;
+    }
+
+    .mid-div{
+        justify-content: space-around;
+    }
+
+    .mid-div img{
+        width: 400px;
+    }
+
+    .team-section h2{
+        font-size: 35px;
+        margin-right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
 }

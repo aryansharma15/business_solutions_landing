@@ -538,4 +538,44 @@ h1{
         height: 250px;
     }
 
+    /* ---------------- MEDIA2 - TEAM-SECTION -------------------*/
+
+    .team-section{
+        width: 700px;
+        margin: 50px auto;
+    }
+
+    .team-text{
+        width: 600px;
+    }
+
+    .imgs-div{
+        width: 600px;
+    }
+
+    .images img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .team-text h2{
+        font-size: 28px;
+    }
+
+    /* --------------- MEDIA2 - FOOTER-SECTION ------------------*/
+
+    .footer-section{
+        padding: 20px;
+    }
+
+    .footer-center h5{
+        font-size: 14px;
+    }
+
+    .footer-center li{
+        font-size: 12px;
+    }
+
+
+
 }

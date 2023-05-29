@@ -1,4 +1,4 @@
-# Project 12
+# Business Solutions Landing Page
 
 ## Time Taken - about 5 hours
 
